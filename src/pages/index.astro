@@ -1,14 +1,14 @@
 ---
+import { Image } from '@astrojs/image/components'
+import { IoArrowForward } from 'react-icons/io5/index.js'
 import BaseHead from '../components/BaseHead.astro'
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer.astro'
-import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL } from '../consts'
 import Body from '../components/Body.astro'
 import Content from '../components/Content.astro'
-import { IoArrowForward } from 'react-icons/io5/index.js'
+import Footer from '../components/Footer.astro'
+import Header from '../components/Header.astro'
 import Masthead from '../components/Masthead.astro'
-import { Image } from '@astrojs/image/components'
-const posts = (await Astro.glob('../content/posts/*.md')).sort(
+import { HOMEPAGE_URL, SITE_DESCRIPTION, SITE_TITLE } from '../consts'
+const posts = (await Astro.glob('./post/*md')).sort(
   (a: any, b: any) =>
     new Date(b.frontmatter.createdAt).valueOf() -
     new Date(a.frontmatter.createdAt).valueOf()
