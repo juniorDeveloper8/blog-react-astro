@@ -1,108 +1,52 @@
 ---
-title: "Markdown Style Guide"
+title: "Projectos apis"
 public: "true"
 layout: "../../layouts/BlogPost.astro"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
+description: "apis creadas con java o node y mysql desplegada en docker."
 pubDate: "Jul 01 2022"
 heroImage: "/placeholder-about.jpg"
 ---
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+¿Qué es una api?
 
-## Headings
+En conceptos generales es Una Interfaz de Programación de Aplicaciones (por sus siglas en inglés, Application Programming Interface), es un conjunto de reglas y protocolos que permite a dos aplicaciones de software comunicarse entre sí. Proporciona un conjunto de métodos y funciones predefinidas que permiten a los desarrolladores interactuar con ciertos componentes o servicios de una aplicación, sistema operativo o plataforma, sin necesidad de conocer los detalles internos de su implementación.
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+## Ejemplos
 
-# H1
+### api con java y spring
 
-## H2
+Este challenge o ejercicio trata de una api diseñada para simplificar y agilizar el proceso de reserva de habitaciones de hotel. Esta aplicación ha sido desarrolladaen Java, Spring, y MySQL en Docker..
 
-### H3
+## Ejemplos de su funcionalidad
 
-#### H4
+- esquema de base de datos utilzando dbdiagram.io
+![imagen de api hotel](/public/hotel_alura_3.png)
+- despliegue de la base de datos en docker con una imagen de mysql
+![imagen de api hotel](/public/hotel_alura_2.png)
+- probando endpoints o rutas para verificar su correcto funcionamiento utilizando postmant
+![imagen de api hotel](/public/hotel_alura.png)
 
-##### H5
 
-###### H6
+### roles de usuario con json web token
 
-## Paragraph
+Este proyecto muestra la implementación de una función de autenticación JWT en una aplicación Spring Boot.
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+## Ejemplos de su funcionalidad
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+- nos registramos para que se crear nuevas credenciales
+![imagen de jwt](/public/roles%20de%20usuario.png)
+- podemos ver que la contraceña esta encriptada
+![imagen de jwt](/public/roles%20de%20usuario_2.png)
+- y probamos con postman enviando nuestra credenciales y nos retorna un tocken
+![imagen de jwt](/public/roles%20de%20usuario_3.png)
 
-## Images
+## otro ejemplo 
 
-![This is a placeholder image description](/placeholder-social.jpg)
+### api con node esta esta con middlewares
 
-## Blockquotes
+esta esa con jwt y middlewares hecha en node con express
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+## funcionalidad 
 
-#### Blockquote without attribution
+![imagen node](/public/apirestIA.png)
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-#### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-
-## Code Blocks
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-- List item
-- Another item
-- And another item
-
-#### Nested list
-
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+[para mas informacion](https://github.com/juniorDeveloper8?tab=repositories)

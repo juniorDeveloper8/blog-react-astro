@@ -1,8 +1,8 @@
 ---
-title: "Second post"
+title: "My curses"
 public: "true"
 layout: "../../layouts/BlogPost.astro"
-description: "Lorem ipsum dolor sit amet"
+description: "skill obtain in profetional carrear"
 pubDate: "Jul 22 2022"
 heroImage: "/insignia3.png"
 ---

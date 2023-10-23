@@ -1,5 +1,5 @@
 ---
-title: "Third post"
+title: "My knowledge in Linux"
 public: "true"
 layout: "../../layouts/BlogPost.astro"
 description: "Lorem ipsum dolor sit amet"
