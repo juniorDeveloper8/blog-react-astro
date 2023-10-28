@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'What I use - Roberth Zambrano';
 export const SITE_DESCRIPTION = 'A curated list of  the tech I use';
-export const HOMEPAGE_URL = process.env.MI_PAGINA //este link es de otra página donde se muestra todo sobre uno  
+export const HOMEPAGE_URL = 'https://app.aluracursos.com/emprega-one/profile/oscuridadd38' //este link es de otra página donde se muestra todo sobre uno  
